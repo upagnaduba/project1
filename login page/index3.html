@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index3.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Select one of the following:</h2>
+        <div class="input-group">
+            <input type="radio" id="recommendor" name="recommendor" value="recommendor">
+            <label for="recommendor">Course Recommendation</label>
+        </div>
+        <div class="input-group">
+            <input type="radio" id="online_resources" name="online_resources" value="online_resources">
+            <label for="online_resources">Skill Development</label>
+        </div>
+        
+            <button type="button" onclick="getResources()">Submit</button>
+    </div>
+</body>
+<script>
+    function getResources() {
+        // Get user-selected interest
+        var selectedInterest = document.querySelector('input[name="recommendor"]:checked');
+        var selectedInterest1 = document.querySelector('input[name="online_resources"]:checked');
+        if (selectedInterest) {
+            // You can customize this part based on the selected interest
+            window.location.href = 'recommendor.html'
+
+        }
+        if(selectedInterest1){
+            window.location.href = 'dashboard.html'
+        }  
+        }
+</script>
+</html>

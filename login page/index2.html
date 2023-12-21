@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem and Proverb Generator</title>
+    <link rel="stylesheet" href="index 2.css">
+</head>
+<body></body>
+
+<div class="form-container">
+    <h2>Problem and Proverb Generator</h2>
+    <form action="result.html" method="GET" onsubmit="return validateForm()">
+        <div>
+            <label for="age">Select Age:</label>
+            <select class="age" name="age">
+            <option value="10">10 years old</option>
+            <option value="18">18 years old</option>
+            <!-- Add more age options as needed -->
+            </select>
+        </div>
+        <div>
+        <label for="domain">Select Domain:</label>
+        <select class="domain" name="domain">
+                <option value="math">Math</option>
+                <option value="coding">Coding</option>
+
+            <!-- Add more domain options as needed -->
+        </select>
+    </div>
+
+        <button type="submit">Generate</button>
+    </form>
+</div>
+
+<script src="script2.js"></script>
+</body>
+</html>

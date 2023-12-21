@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+.bot {
+    background-color: rgb(219, 246, 250);
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+.interestForm {
+    background-color: rgb(247, 222, 223);
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+}
+h1{
+    text-align: left;
+}
+
+
